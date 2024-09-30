@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: userdf
+  datasource:
+    url: jdbc:mysql://localhost:3306/userdf
+    username: root
+    password: admin
+  liquibase:
+    enabled: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
